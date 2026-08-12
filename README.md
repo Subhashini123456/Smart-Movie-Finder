@@ -137,3 +137,24 @@ smart-movie-recommendation-system/
 ├── style.css
 ├── script.js
 └── README.md
+## 📸 Project Screenshots
+
+### 🏠 Home Page
+
+![Home Page](screenshots/home.png)
+
+### 🎭 Discover Movies
+
+![Discover Movies](screenshots/discover.png)
+
+### 🎬 Movie Details
+
+![Movie Details](screenshots/movie-details.png)
+
+### 🔥 Trending Movies
+
+![Trending Movies](screenshots/trending.png)
+
+### ❤️ My List
+
+![My List](screenshots/my-list.png)
