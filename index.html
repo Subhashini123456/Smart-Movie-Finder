@@ -1,1 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Movie Recommendation System</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+
+        <div class="logo">
+            🎬 Smart Movie Recommendation System
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#discover">Discover</a>
+            <a href="#trending">Trending</a>
+            <a href="#my-list">My List ❤️</a>
+        </nav>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="🔍 Search movies..."
+            >
+        </div>
+
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="subtitle">
+                SMART MOVIE DISCOVERY
+            </p>
+
+            <h1>
+                Find a movie
+                <span>you'll love.</span>
+            </h1>
+
+            <p class="description">
+                Discover movies based on your favorite genres,
+                ratings and preferences.
+            </p>
+
+            <button id="recommendButton">
+                ✦ Get My Recommendations
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- Discover Section -->
+    <section id="discover" class="section">
+
+        <p class="subtitle">
+            EXPLORE
+        </p>
+
+        <h2>
+            What are you
+            <span>in the mood for?</span>
+        </h2>
+
+        <!-- Genre Buttons -->
+        <div class="filters">
+
+            <button data-genre="All">
+                All
+            </button>
+
+            <button data-genre="Action">
+                Action
+            </button>
+
+            <button data-genre="Comedy">
+                Comedy
+            </button>
+
+            <button data-genre="Drama">
+                Drama
+            </button>
+
+            <button data-genre="Sci-Fi">
+                Sci-Fi
+            </button>
+
+            <button data-genre="Thriller">
+                Thriller
+            </button>
+
+            <button data-genre="Romance">
+                Romance
+            </button>
+
+        </div>
+
+
+        <!-- Movies -->
+        <div
+            id="movieContainer"
+            class="movie-grid">
+        </div>
+
+    </section>
+
+
+    <!-- Trending Section -->
+    <section id="trending" class="section">
+
+        <p class="subtitle">
+            THIS WEEK
+        </p>
+
+        <h2>
+            🔥 Trending <span>Movies</span>
+        </h2>
+
+        <div
+            id="trendingContainer"
+            class="movie-grid">
+        </div>
+
+    </section>
+
+
+    <!-- My List Section -->
+    <section id="my-list" class="section">
+
+        <p class="subtitle">
+            YOUR COLLECTION
+        </p>
+
+        <h2>
+            ❤️ My <span>List</span>
+        </h2>
+
+        <div
+            id="myListContainer"
+            class="movie-grid">
+        </div>
+
+    </section>
+
+
+    <!-- Movie Details Modal -->
+    <div id="movieModal" class="modal">
+
+        <div class="modal-content">
+
+            <button
+                id="closeModal"
+                class="close-button">
+                ×
+            </button>
+
+            <div
+                id="modalPoster"
+                class="modal-poster">
+            </div>
+
+            <div class="modal-details">
+
+                <p class="subtitle">
+                    MOVIE DETAILS
+                </p>
+
+                <h2 id="modalTitle">
+                    Movie Title
+                </h2>
+
+                <p id="modalMeta">
+                    2024 • Drama
+                </p>
+
+                <p id="modalRating">
+                    ⭐ 4.8
+                </p>
+
+                <p id="modalDescription">
+                    Movie description goes here.
+                </p>
+
+                <button id="addListButton">
+                    ❤️ Add to My List
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- JavaScript -->
+    <!-- Footer -->
+<footer class="footer">
+
+    <div class="footer-content">
+
+        <div>
+            <h3>🎬 Smart Movie Recommendation System</h3>
+
+            <p>
+                Discover movies you'll love,
+                based on your interests and preferences.
+            </p>
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="#home">Home</a>
+
+            <a href="#discover">Discover</a>
+
+            <a href="#trending">Trending</a>
+
+            <a href="#my-list">My List</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 Smart Movie Recommendation System
+        </p>
+
+        <p>
+            Developed as a Web-Based Recommendation Project
+        </p>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
